@@ -1,5 +1,4 @@
-/*  This program tests the EanBarcode class.
-    The check digit is calculated by adding the digits at odd positions and multiplying the sum by 3 or 1. */
+//  This program tests the EanBarcode class.
 public static String completeBarcode(String barcode) {
     // Check if the input barcode has a valid prefix (either EAN-13 or EAN-8)
     if (barcode.matches("\\d{7,13}")) {
